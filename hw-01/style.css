@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap');
+:root {
+      /* fonts  */
+  --headingFont: 'Roboto', sans-serif;
+  --bodyFont: 'Nunito', sans-serif;
+  --smallText: 0.7em;
+}
+/*Some necessary adjustments*/
+h1, body, html, main {
+    margin: 0;
+  }
+
+  /*Import the font and set the default size*/
+  /* html {
+    font-size: 18px;
+    font-family: var(--bodyFont);
+    font-weight: 400;
+  } */
+
+  body{
+    font-family: var(--headingFont);
+    line-height: 1.75;
+    font-size: larger;
+  }
+  .container {
+    position: relative;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+  
+  img { 
+    width: 100%;
+    height: 500px;
+    /* opacity: 0.6; */
+  }
+  h1{
+    color: #FFF;
+    margin: 0;
+    margin-bottom: 1.38rem;
+    font-family: var(--headingFont);
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.3;
+    text-transform: capitalize;
+    letter-spacing: var(--letterSpacing);
+  }
+  .recipe-info{
+    transform: translate(-50%, -50%);
+    height: 60px;
+    width: 300px;
+    position: absolute;
+    top:120%;
+    left: 50%;
+    margin-right: -50%;
+    font-size:30px;
+  }
+  .cooking-info{
+    transform: translate(-50%, -50%);
+    height: 60px;
+    width: 300px;
+    position: absolute;
+    top:220%;
+    left: 50%;
+    margin-right: -50%;
+    font-size:30px;
+  }
+  hr{
+    border-top: 2px solid gray;
+  }
+  p, hr,ul{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  ul{
+      list-style: none;
+  }
